@@ -1,0 +1,235 @@
+svg {
+	
+    left: 0; 
+  right: 0; 
+  margin-left: auto; 
+  margin-right: auto;
+}
+}
+.subtitle  {
+	font: 14px Baskerville; 
+}
+
+#play-button {
+      position: absolute;
+      top: 140px;
+      left: 50px;
+      background: #f08080;
+      padding-right: 26px;
+      border-radius: 3px;
+      border: none;
+      color: white;
+      margin: 0;
+      padding: 0 12px;
+      width: 60px;
+      cursor: pointer;
+      height: 30px;
+    }
+
+ #map {
+ 	top: 1500px
+ 	l
+ }
+
+    #play-button:hover {
+      background-color: #696969;
+    }
+
+#stop {
+      position: absolute;
+      top: 140px;
+      left: 120px;
+      background: #f08080;
+      padding-right: 26px;
+      border-radius: 3px;
+      border: none;
+      color: white;
+      margin: 0;
+      padding: 0 12px;
+      width: 60px;
+      cursor: pointer;
+      height: 30px;
+    }
+
+    #stop:hover {
+      background-color: #696969;
+    }
+
+
+
+.current {
+	left: 0; 
+  	right: 0; 
+  	margin-left: auto; 
+  	margin-right: auto;
+}
+
+
+
+.state-borders {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 0.2px;
+  stroke-linejoin: round;
+  stroke-linecap: round;
+  pointer-events: none;
+}
+
+.bubble {
+
+	fill:blue;
+	 stroke:white;
+ 	
+}
+
+.countyHover {
+    
+    opacity:.9;
+    stroke-width: 3px;
+    stroke:black;  
+}
+
+
+
+div.countyTooltip {  
+    word-wrap: normal;
+    position: absolute;
+    text-align: center;
+    min-height: 20px;
+    min-width: 30px;                      
+    padding: 2px;               
+    font: 14px Baskerville;      
+    color: #fff;
+    background-color: rgba(51,51,51,.85);
+    border: solid thin black;
+    padding: 5px 10px 10px 5px;
+    top: -75px;       
+    pointer-events: none;           
+}
+
+div.county2014Tooltip {  
+    word-wrap: normal;
+    position: absolute;
+    text-align: center;
+    min-height: 20px;
+    min-width: 30px;                      
+    padding: 2px;               
+    font: 14px Baskerville;      
+    color: #fff;
+    background-color: rgba(51,51,51,.85);
+    border: solid thin black;
+    padding: 5px 10px 10px 5px;
+    top: -75px;       
+    pointer-events: none;           
+}
+
+.d3-slider {
+    position: relative;
+    font-family: Verdana,Arial,sans-serif;
+    font-size: 1.1em;
+    border: 1px solid #aaaaaa;
+    z-index: 2;
+}
+
+.d3-slider-horizontal {
+    height: .8em;
+}  
+
+.d3-slider-range {
+  background:#2980b9;
+  left:0px;
+  right:0px;
+  height: 0.8em;
+  position: absolute;
+}
+
+.d3-slider-range-vertical {
+  background:#2980b9;
+  left:0px;
+  right:0px;
+  position: absolute;
+  top:0;
+}
+
+.d3-slider-vertical {
+    width: .8em;
+    height: 100px;
+}      
+
+.d3-slider-handle {
+    position: absolute;
+    width: 1.2em;
+    height: 1.2em;
+    border: 1px solid #d3d3d3;
+    border-radius: 4px;
+    background: #eee;
+    background: linear-gradient(to bottom, #eee 0%, #ddd 100%);
+    z-index: 3;
+}
+
+.d3-slider-handle:hover {
+    border: 1px solid #999999;
+}
+
+.d3-slider-horizontal .d3-slider-handle {
+    top: -.3em;
+    margin-left: -.6em;
+}
+
+.d3-slider-axis {
+    position: relative;
+    z-index: 1;    
+}
+
+.d3-slider-axis-bottom {
+    top: .8em;
+}
+
+.d3-slider-axis-right {
+    left: .8em;
+}
+
+.d3-slider-axis path {
+    stroke-width: 0;
+    fill: none;
+}
+
+.d3-slider-axis line {
+    fill: none;
+    stroke: #aaa;
+    shape-rendering: crispEdges;
+}
+
+.d3-slider-axis text {
+    font-size: 11px;
+}
+
+.d3-slider-vertical .d3-slider-handle {
+    left: -.25em;
+    margin-left: 0;
+    margin-bottom: -.6em;      
+}
+
+#slider3 {
+  margin: 20px 0 10px 20px;
+  width: 900px;
+}
+
+div.leafletDiv {  
+    word-wrap: normal;
+    position: absolute;
+    text-align: center;
+    min-height: 20px;
+    min-width: 30px;                      
+    padding: 2px;               
+    font: 14px Baskerville;      
+    color: #fff;
+    background-color: rgba(51,51,51,.85);
+    border: solid thin black;
+    padding: 5px 10px 10px 5px;
+    top: -75px;       
+    pointer-events: none;           
+}
+.leaflet-container > svg .svglayer path {
+    pointer-events: auto ;
+}
